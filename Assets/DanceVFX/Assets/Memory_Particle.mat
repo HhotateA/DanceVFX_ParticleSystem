@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Memory_Particle
+  m_Shader: {fileID: 4800000, guid: d803f01aae7e3b54cbfb9ba30dc5b0f2, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BufferTex:
+        m_Texture: {fileID: 8600000, guid: c220dec5f6186a94b8b58c641203a6fd, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ColTex:
+        m_Texture: {fileID: 8400000, guid: 7ca37132823bef14a8c63de34304f64a, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DepthTex:
+        m_Texture: {fileID: 8400000, guid: e3409bd3e8ff1054d89259c79e565163, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DragField:
+        m_Texture: {fileID: 8400000, guid: e3409bd3e8ff1054d89259c79e565163, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _InputTexture:
+        m_Texture: {fileID: 8400000, guid: 1f69ef58b45ea8e468b7df75a40b8fdb, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MemoryTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MotionVector:
+        m_Texture: {fileID: 8400000, guid: e3409bd3e8ff1054d89259c79e565163, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 8600000, guid: ebaa9db986e44144f9db801efc957f01, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VectorField:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Attractor: 0
+    - _Buffer: 2
+    - _CurlNoise: -4.48
+    - _CurlNoiseScale: 11
+    - _Drag: 0
+    - _FBM: 0
+    - _FieldDrag: -0.01
+    - _LifeTime: 100
+    - _Motion: 0.001
+    - _Noise: 0.0001
+    - _Noise2: 3
+    - _NoiseAcceleration: 0
+    - _NoiseJerk: 0.5
+    - _NoiseLebel: 1
+    - _NoiseMode: 1
+    - _NoiseOverLifetime0: 0
+    - _NoiseOverLifetime1: 0
+    - _NoiseOverLifetime2: 0.1
+    - _NoiseOverLifetime3: 0.2
+    - _NoiseVelocity: 0.05
+    - _ParticleRate: 3
+    m_Colors:
+    - _Clamp: {r: -1, g: 1, b: 0, a: 1}
+    - _ForceOverLifetime0: {r: 0, g: 0, b: 0, a: 0}
+    - _ForceOverLifetime1: {r: 0, g: 0, b: 0, a: 0}
+    - _ForceOverLifetime2: {r: 0, g: 0, b: 0, a: 0}
+    - _ForceOverLifetime3: {r: 0, g: 0, b: 0, a: 0}
+    - _NoiseScroll: {r: 1.3, g: 0.29, b: 0.5, a: 0}
+    - _Noise_ST: {r: 15, g: 15, b: 15, a: 15}
+    - _ParticleForce: {r: 0, g: 0, b: 0, a: 0}
+    - _ParticleMul: {r: 10, g: 10, b: -10, a: 1}
+    - _ParticleOffset: {r: -5, g: -5, b: 10, a: 0}
+    - _RandSeed: {r: 134.5, g: 510.91, b: 566.7, a: 7000}
+    - _StartSpeed: {r: 0, g: 0, b: 0, a: 0}

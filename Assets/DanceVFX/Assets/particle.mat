@@ -1,0 +1,326 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: particle
+  m_Shader: {fileID: 4800000, guid: 6642ffcf214e0af429466f0436d17b16, type: 3}
+  m_ShaderKeywords: _FURSATURATE_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BackTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BloomMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BloomTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DisolveMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FresnelMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HSVMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MemoryTex:
+        m_Texture: {fileID: 8600000, guid: 125dbe9a22350f34e88e01b7d6e92a62, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OutlineMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OutlineTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OverrideTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParticleTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PositionMemory:
+        m_Texture: {fileID: 8600000, guid: 125dbe9a22350f34e88e01b7d6e92a62, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionTex0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionTex1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RoughnessMetallicMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadeColor:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadowTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SubTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TessMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ToonMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AddCameraCulling: 0
+    - _AddMirrorCulling: 0
+    - _Alpha2Grab: 0
+    - _Alpha2Parallax: 0
+    - _AlphaCut: 0
+    - _BaseCameraCulling: 0
+    - _BaseMirrorCulling: 0
+    - _BillBoard: 0
+    - _BlendMode: 0
+    - _BloomBase: 1
+    - _BloomBlendMode: 0
+    - _BloomBrightness: 0.2
+    - _BloomCameraCulling: 0
+    - _BloomCullMode: 2
+    - _BloomDstBlend: 1
+    - _BloomKnee: 2
+    - _BloomLightEffect: 0
+    - _BloomMainTexBlend: 0.5
+    - _BloomMirrorCulling: 0
+    - _BloomRange: 0
+    - _BloomSoftknee: 0.6
+    - _BloomSrcBlend: 5
+    - _BloomThreshold: 1.2
+    - _BloomZWrite: 0
+    - _BumpScale: 1
+    - _CameraCulling: 0
+    - _ClipThreshold: 0.3
+    - _ColorStepFactor: 256
+    - _CullMode: 2
+    - _DisolveSpeed: 0
+    - _Doppelganger: 1
+    - _DstBlend: 1
+    - _Dummy: 0
+    - _EmissionWidth: 2.7
+    - _ExchangeThreshold: 2
+    - _ExtrusionFactor: 0
+    - _ExtrusionNoise: 0
+    - _FBM: 0
+    - _FarClip: -1
+    - _FlatShading: 0
+    - _FurNoise: 0
+    - _FurSaturate: 1
+    - _FurWindPower: 0
+    - _FurWindSpeed: 0
+    - _FurWindType: 1
+    - _GrabAdd: 0
+    - _GrabBlend: 0
+    - _GrabColorStepFactor: 256
+    - _GrabH: 0
+    - _GrabMosicFactor: 0
+    - _GrabMul: 0
+    - _GrabS: 0.5
+    - _GrabV: 0.5
+    - _H: 0
+    - _HSVPosMask: 0
+    - _IS_DOPPELGENGER: 0
+    - _IndirectLightIntensity: 0.8
+    - _Lambert: 1
+    - _LightColorAttenuation: 0
+    - _MatcapMode: 0
+    - _MaxPointLightEfect: 0.3
+    - _Metalic: 1
+    - _MirrorCulling: 0
+    - _MirrorMode: 0
+    - _Model2World: 0
+    - _NOISE_GENERATE: 0
+    - _NearClip: -1
+    - _NoiseMode: 0
+    - _ObjPosFactor: 0
+    - _ObjPosNoise: 0
+    - _OutlineBase: 1
+    - _OutlineCullMode: 2
+    - _OutlineMainTexBlend: 1
+    - _OutlineWidth: 0
+    - _OutlineWidthDist: 3
+    - _OutlineWidthMax: 3
+    - _OutlineWidthMin: 0
+    - _OverrideH: 0
+    - _OverridePosMask: 0
+    - _OverrideS: 0.5
+    - _OverrideV: 0.5
+    - _ParallaxAdd: 0
+    - _ParallaxBlend: 0
+    - _ParallaxDepth: 1
+    - _ParallaxMul: 0
+    - _ParticleColorFactor: 0
+    - _ParticleFactor: 1
+    - _ParticleSize: 0.009
+    - _PositionFactor: 0
+    - _PositionNoise: 0
+    - _PositionPower: 10
+    - _ReadMask: 255
+    - _ReceiveShadowRate: 0.1
+    - _RefractDistance: 1
+    - _RelativeRefractionIndex: 0.9
+    - _RimFresnel: 0
+    - _RimFresnelPower: 4.89
+    - _RimLift: 0.38
+    - _RimPower: 0.008
+    - _RotationFactor: 0
+    - _RotationNoise: 0
+    - _Roughness: 0
+    - _S: 0.5
+    - _ScaleFactor: 1
+    - _ScaleNoise: 0
+    - _Shade1Power0: 2
+    - _Shade1Power1: 1
+    - _ShadeShift0: 0.173
+    - _ShadeShift1: 0.288
+    - _ShadeToony0: 0.383
+    - _ShadeToony1: 0.829
+    - _ShadowCameraCulling: 0
+    - _ShadowMirrorCulling: 0
+    - _SizeOverLiferime0: 1
+    - _SizeOverLiferime1: 1
+    - _SizeOverLiferime2: 1
+    - _SizeOverLiferime3: 1
+    - _SrcBlend: 1
+    - _Stencil: 0
+    - _StencilComp: 0
+    - _StencilFail: 0
+    - _StencilMode: 0
+    - _StencilPass: 0
+    - _StencilZFail: 0
+    - _Tex2AlphaMask: 0
+    - _Tex2BackTextureLevel: 1
+    - _Tex2ShadowTextureLevel: 0
+    - _Toon: 1
+    - _V: 0.5
+    - _VertexColorMultiple: 0
+    - _VirtualGI: 0.3
+    - _VirtualLight: 0.1
+    - _WireframeBlend: 0
+    - _WireframeWidth: 0
+    - _World2View: 0
+    - _WriteMask: 255
+    - _ZTest: 2
+    - _ZWrite: 0
+    m_Colors:
+    - _BillBoardPos: {r: 0, g: 0, b: 0, a: 0}
+    - _BillBoardRot: {r: 1, g: 0, b: 0, a: 0}
+    - _BillBoardScale: {r: 1, g: 1, b: 1, a: 0}
+    - _BloomCol: {r: 1, g: 1, b: 1, a: 1}
+    - _CameraPos: {r: 0, g: 0, b: 0, a: 0}
+    - _CameraResolution: {r: 1280, g: 720, b: 1920, a: 1080}
+    - _CameraRot: {r: 1, g: 0, b: 0, a: 0}
+    - _CameraScale: {r: 1, g: 1, b: 1, a: 0}
+    - _Center: {r: 0, g: 0, b: 0, a: 0}
+    - _ChromaticAberrationB: {r: 0, g: 0, b: 0, a: 0}
+    - _ChromaticAberrationG: {r: 0, g: 0, b: 0, a: 0}
+    - _ChromaticAberrationR: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorOverLifeTime0: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorOverLifeTime1: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorOverLifeTime2: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorOverLifeTime3: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorOverLifetime0: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorOverLifetime1: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorOverLifetime2: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorOverLifetime3: {r: 0, g: 0, b: 0, a: 1}
+    - _DoppelgangerPos: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionScroll: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionVelocity: {r: 0, g: 2, b: 0, a: 1}
+    - _ExchangeColor: {r: 1, g: 0, b: 0, a: 1}
+    - _FurGravity: {r: 0, g: 0, b: 0, a: 0}
+    - _Grabity: {r: 0, g: 0, b: 0, a: 0}
+    - _MatCapColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MemoryScroll: {r: 0, g: 0, b: 0, a: 0}
+    - _ModelPos: {r: -0.5, g: -0.5, b: 1, a: 0}
+    - _ModelRot: {r: 1, g: 0, b: 0, a: 0}
+    - _ModelScale: {r: 1, g: 1, b: 1, a: 0}
+    - _NoiseScroll: {r: 0, g: 0, b: 0, a: 0}
+    - _Noise_ST: {r: 1, g: 1, b: 0, a: 0}
+    - _OutlineColor: {r: 0.48, g: 0.46, b: 0.45, a: 1}
+    - _OverrideColor: {r: 1, g: 0, b: 0, a: 1}
+    - _ParallaxColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ParallaxScroll: {r: 0, g: 0, b: 0, a: 0}
+    - _ParticleCol: {r: 15, g: 15, b: 15, a: 1}
+    - _ParticleColor: {r: 1, g: 0, b: 0, a: 1}
+    - _ParticleMul: {r: 10, g: 10, b: -10, a: 1}
+    - _ParticleOffset: {r: -5, g: -5, b: 10, a: 0}
+    - _PositionMul: {r: 1, g: 1, b: -1, a: 1}
+    - _PositionMultipl: {r: 1, g: 1, b: 1, a: 1}
+    - _PositionPower: {r: 1, g: 1, b: 1, a: 1}
+    - _RandSeed: {r: 134.5, g: 510.91, b: 566.7, a: 7000}
+    - _RimColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ShadeColor0: {r: 0.97, g: 0.81, b: 0.86, a: 1}
+    - _ShadeColor1: {r: 0.9, g: 0.61, b: 0.68, a: 1}
+    - _SubColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TessFactor: {r: 1, g: 1, b: 1, a: 1}
+    - _UVScroll: {r: 0, g: 0, b: 0, a: 0}
+    - _WireframeColor: {r: 1, g: 1, b: 1, a: 1}
