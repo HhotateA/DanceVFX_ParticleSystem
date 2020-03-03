@@ -29,8 +29,6 @@ http://hhotatea.com
 
 # 規約 (Terms)
 
-・VRChatの仕様変更により本パッケージの機能が使えなくなった場合、製作者は責任を負いません。
-
 ・本アセットはUnity2017.4.28のPCWindowsビルド環境で動作を確認しています。それ以外でのPlatformでの動作は保証しません。
 
 ・著作権は製作者に帰属します。
@@ -38,8 +36,6 @@ http://hhotatea.com
 ・本アセットを使って発生した問題に対しては製作者は一切の責任を負いません。
 
 ・Unityでビルド後であれば連絡なしで再配布可能とします。(VRChatのアバター、ワールドのアップロードはビルドと同じ扱いと考えます)
-
--The creator is not responsible if the functions of this package cannot be used due to a change in the specifications of VRChat.
 
 ・ This asset has been confirmed to work on PCWindows build environment of Unity2017.4.28. Operation on other platforms is not guaranteed.
 
@@ -49,33 +45,9 @@ http://hhotatea.com
 
 -After building with Unity, it can be redistributed without contact. (I have confirmed that this is available for the VRChat world. It is unconfirmed whether this can be used for VRChat avatars.)
 
-# 導入手順 (Installation procedure)
-
-1. Unityプロジェクトを作成する。(あらかじめVRChatSDKを導入しておく)
-
-2. 本アセット(DanceVFX_ParticleSystem.unitypackage)をプロジェクトにインポートする。
-
-3. シーンにAssets/DanceVFX/VFXParticleとAssets/DanceVFX/VFXControllerを設置する。
-
-4. VFXParticleSystemのデプスカメラの範囲内のPlayerレイヤーのオブジェクトの周辺にパーティクルが発生します。
-
-5. VFXController内の"Settings_Attractor"の数値を変更することで、パーティクルの動きや見た目を変更できます。
-
-
-1. Create a Unity project. (Introduce VRChatSDK in advance)
-
-2. Import this asset (DanceVFX_ParticleSystem.unitypackage) into the project.
-
-3. Set Assets/DanceVFX/VFXParticle and Assets/DanceVFX/VFXController in the scene.
-
-4. Particles are generated around the objects of the Player layer within the range of the VFXParticleSystem depth camera.
-
-5. By changing the value of "Settings_Attractor" in VFXController, you can change the movement and appearance of particles.
-
-
 # 設定 (Configuration)
 
-Lifetime : パーティクルの寿命(minからmaxの間でランダムに決まります)
+Lifetime : パーティクルの寿命
 ParticleRate : フレーム当たりに生成されるパーティクルの量を変更できます
 Motion : 物体の動きを検知する許容値(-0.01で常時発生)
 Drag : パーティクルの速度減少(空気抵抗)です
@@ -98,7 +70,7 @@ SizeOverLifetime : パーティクルの寿命ごとに大きさを変更でき�
 Attraction : パーティクルをControllerに引き寄せます
 (AttractorMul,AttractorCenter) : パーティクルを引き寄せる中心をずらす設定です。オブジェクトの位置によって適切に設定してください。
 
-Lifetime: Lifetime of particles (random between min and max)
+Lifetime: Lifetime of particles
 ParticleRate: You can change the amount of particles generated per frame
 Motion: Allowance for detecting the movement of an object (always generated at -0.01)
 Drag: Particle velocity decrease (air resistance)
