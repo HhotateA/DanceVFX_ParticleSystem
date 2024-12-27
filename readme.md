@@ -39,11 +39,11 @@ http://hhotatea.com
 
 ・ This asset has been confirmed to work on PCWindows build environment of Unity2017.4.28. Operation on other platforms is not guaranteed.
 
-・ Copyright belongs to the "HOTATE_NEKO".
+・ Copyright belongs to the "HhotateA".
 
--"HOTATE_NEKO" does not take any responsibility for any problems that occur using this asset.
+・ "HhotateA" does not take any responsibility for any problems that occur using this asset.
 
--After building with Unity, it can be redistributed without contact. (I have confirmed that this is available for the VRChat world. It is unconfirmed whether this can be used for VRChat avatars.)
+・ After building with Unity, it can be redistributed without contact. (I have confirmed that this is available for the VRChat world. It is unconfirmed whether this can be used for VRChat avatars.)
 
 # 設定 (Configuration)
 
